@@ -53,10 +53,10 @@ public class MainActivity extends Activity {
 					flag =1;
 				}
 				if(fflag==1){
-					fflash.setImageDrawable(getResources().getDrawable(R.drawable.lighton));
+					fflash.setImageDrawable(getResources().getDrawable(R.drawable.lf));
 					fflag=2;
 				}else{
-					fflash.setImageDrawable(getResources().getDrawable(R.drawable.lightoff));
+					fflash.setImageDrawable(getResources().getDrawable(R.drawable.lo));
 					fflag=1;
 				}
 				
